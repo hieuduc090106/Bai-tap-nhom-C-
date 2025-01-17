@@ -93,7 +93,7 @@ void Them_hoc_sinh(Hoc_sinh*& hoc_sinh, int& size) {
 
 	int new_size = size + 1;
 
-	Hoc_sinh* hoc_sinh_tmp = new Hoc_sinh[new_size + 1];
+	Hoc_sinh* hoc_sinh_tmp = new Hoc_sinh[new_size ];
 
 	for (int i = 0; i < size; i++) {
 		hoc_sinh_tmp[i] = hoc_sinh[i];
